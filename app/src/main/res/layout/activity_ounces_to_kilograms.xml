@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OuncesToKilograms">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarForOunces"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="320dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/editTextForOunces"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:title="Ounces To Kilograms"
+        app:titleTextColor="@color/white"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/editTextForOunces"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginBottom="264dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="@string/enter_your_value_in_ounces"
+        android:textColorHint="@color/grey"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.089"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/editTextForKilograms"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginBottom="164dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/editTextForOunces"
+        app:layout_constraintTop_toBottomOf="@+id/editTextForOunces"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+    <Button
+        android:id="@+id/convertButtonForOunces"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="18dp"
+        android:text="@string/convert"
+        app:layout_constraintBaseline_toBaselineOf="@+id/editTextForOunces"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/resetButtonForOunces"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="148dp"
+        android:layout_marginEnd="144dp"
+        android:text="@string/reset"
+        app:layout_constraintEnd_toEndOf="@+id/convertButtonForOunces"
+        app:layout_constraintTop_toBottomOf="@+id/editTextForOunces" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

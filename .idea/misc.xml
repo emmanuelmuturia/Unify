@@ -3,7 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable-v24/border.xml" value="0.1685" />
+        <entry key="app/src/main/res/layout/activity_dollars_to_shillings.xml" value="0.19375" />
+        <entry key="app/src/main/res/layout/activity_fahrenheit_to_celsius.xml" value="0.17864583333333334" />
+        <entry key="app/src/main/res/layout/activity_feet_to_metres.xml" value="0.19375" />
+        <entry key="app/src/main/res/layout/activity_gallons_to_litres.xml" value="0.19375" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19375" />
+        <entry key="app/src/main/res/layout/activity_miles_to_kilometres.xml" value="0.19375" />
+        <entry key="app/src/main/res/layout/activity_ounces_to_kilograms.xml" value="0.19375" />
       </map>
     </option>
   </component>

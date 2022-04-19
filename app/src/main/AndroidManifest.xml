@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
+            android:name=".MilesToKilometres"
+            android:exported="false" />
+        <activity
+            android:name=".FahrenheitToCelsius"
+            android:exported="false" />
+        <activity
+            android:name=".GallonsToLitres"
+            android:exported="false" />
+        <activity
+            android:name=".OuncesToKilograms"
+            android:exported="false" />
+        <activity
+            android:name=".FeetToMetres"
+            android:exported="false" />
+        <activity
+            android:name=".DollarsToShillings"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
