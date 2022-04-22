@@ -1,9 +1,9 @@
 package com.emmanuelmuturia.unify
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -11,12 +11,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         //We declare our Image Buttons...
-        val imageButton1:ImageButton = findViewById(R.id.dollarstoksh)
-        val imageButton2:ImageButton = findViewById(R.id.feettometres)
-        val imageButton3:ImageButton = findViewById(R.id.ouncestokilograms)
-        val imageButton4:ImageButton = findViewById(R.id.gallonstolitres)
-        val imageButton5:ImageButton = findViewById(R.id.fahrenheittocelsius)
-        val imageButton6:ImageButton = findViewById(R.id.milestokilometres)
+        val imageButton1: ImageButton = findViewById(R.id.dollarstoksh)
+        val imageButton2: ImageButton = findViewById(R.id.feettometres)
+        val imageButton3: ImageButton = findViewById(R.id.ouncestokilograms)
+        val imageButton4: ImageButton = findViewById(R.id.gallonstolitres)
+        val imageButton5: ImageButton = findViewById(R.id.fahrenheittocelsius)
+        val imageButton6: ImageButton = findViewById(R.id.milestokilometres)
 
         //We write intents to switch between activities during button clicks...
         imageButton1.setOnClickListener {

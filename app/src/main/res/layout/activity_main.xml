@@ -12,9 +12,9 @@
         android:orientation="vertical">
 
         <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/toolbar"
             android:background="@color/black"
             app:title="Unify"
             app:titleTextColor="@color/white" />
@@ -25,20 +25,20 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:layout_width="150dp"
-                android:layout_height="150dp"
                 android:id="@+id/dollarstoksh"
-                android:src="@drawable/dollar"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="20dp"/>
-
-            <ImageButton
                 android:layout_width="150dp"
                 android:layout_height="150dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/dollar" />
+
+            <ImageButton
                 android:id="@+id/feettometres"
-                android:src="@drawable/feet"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
                 android:layout_marginStart="20dp"
-                android:layout_marginTop="20dp"/>
+                android:layout_marginTop="20dp"
+                android:src="@drawable/feet" />
 
         </LinearLayout>
 
@@ -48,20 +48,20 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:layout_width="150dp"
-                android:layout_height="150dp"
                 android:id="@+id/ouncestokilograms"
-                android:src="@drawable/kilo"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="70dp"/>
-
-            <ImageButton
                 android:layout_width="150dp"
                 android:layout_height="150dp"
-                android:id="@+id/gallonstolitres"
-                android:src="@drawable/gallons"
                 android:layout_marginStart="20dp"
-                android:layout_marginTop="70dp"/>
+                android:layout_marginTop="70dp"
+                android:src="@drawable/kilo" />
+
+            <ImageButton
+                android:id="@+id/gallonstolitres"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="70dp"
+                android:src="@drawable/gallons" />
 
         </LinearLayout>
 
@@ -71,20 +71,20 @@
             android:orientation="horizontal">
 
             <ImageButton
+                android:id="@+id/fahrenheittocelsius"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
-                android:id="@+id/fahrenheittocelsius"
-                android:src="@drawable/temperature"
                 android:layout_marginStart="20dp"
-                android:layout_marginTop="80dp"/>
+                android:layout_marginTop="80dp"
+                android:src="@drawable/temperature" />
 
             <ImageButton
+                android:id="@+id/milestokilometres"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
-                android:id="@+id/milestokilometres"
-                android:src="@drawable/mile"
                 android:layout_marginStart="20dp"
-                android:layout_marginTop="80dp"/>
+                android:layout_marginTop="80dp"
+                android:src="@drawable/mile" />
 
         </LinearLayout>
 
